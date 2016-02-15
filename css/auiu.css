@@ -1,0 +1,228 @@
+.auiu-post-form{ 
+	list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#auiu-ft-upload-container {
+	border: 1px dashed #ccc;
+	margin-left: 23%;
+	padding-top: 15px;
+    padding-bottom: 10px;
+}	
+#auiu-ft-upload-filelist img {
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+.auiu-post-form li {
+	margin: 5px 0;
+	padding: 0;}
+.auiu-post-form label {
+	float: left;
+	font-weight: bold;
+	height: 20px;
+	margin: 0;
+	width: 23%;
+	padding: 0;
+	font-size: 12px;
+	cursor: pointer;
+}.auiu-post-form input, .auiu-post-form textarea, .auiu-post-form select {
+	margin: 0;
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.auiu-post-form input:focus, .auiu-post-form textarea:focus, .auiu-post-form select:focus {    
+	background: #F2F2F2;
+}
+.auiu-post-form .childCategory {    
+	padding-top: 5px;
+}
+.auiu-post-form input[type=text]{    
+	width: 74%;
+}.auiu-post-form textarea {
+	width: 74%;
+}
+.auiu-post-form .auiu-check-container {    
+	float: left;
+	width: 74%;
+}
+.auiu-post-form input[type="submit"] {	
+	color: #FFF;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 12px 15px 11px 15px;
+	background: #4090BA;
+	white-space: nowrap;
+	display: -moz-inline-box;
+	-moz-box-orient: vertical;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	text-shadow: none;
+	margin-top: 15px;
+	margin-left: 23%;
+	border: none;
+    box-shadow: none; 
+}
+.auiu-post-form input[type="submit"]:hover {
+	text-decoration: none;
+	color: #FFF;
+	background: #3981A7;
+	border: none;
+    box-shadow: none; 
+}
+a#auiu-ft-upload-pickfiles, #auiu-ft-upload-filelist .button {
+	color: #FFF;
+	font-weight: bold;
+	padding: 12px 15px 11px 15px;
+	background: #4090BA;
+	line-height: 1;
+	white-space: nowrap;
+	display: -moz-inline-box;
+	-moz-box-orient: vertical;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	text-decoration: none;
+	margin-bottom: 8px;
+	z-index: 99999999;
+}
+.auiu-dropfile-text {
+	float: right;
+	padding-right: 20px;
+}	
+a#auiu-ft-upload-pickfiles:hover, #auiu-ft-upload-filelist .button:hover { 
+	text-decoration: none;
+	color: #FFF;
+	background: #3981A7;
+}
+#auiu-ft-upload-container > button, #auiu-ft-upload-container > button:hover, #auiu-ft-upload-filelist button, #auiu-ft-upload-filelist button:hover {
+	background-color: inherit;
+	padding: 0;
+}
+ul.auiu-category-checklist {
+	margin: 0;
+	list-style: none;
+}
+.auiu-post-form .category-wrap {
+	position: relative;
+}
+.auiu-post-form .category-wrap select {
+	display: block;
+	margin: 0 0 5px 0;
+}
+.error {
+	clear: both;
+    background-color: #FFBABA;
+    border: 1px solid #DD3C10;
+    border-radius: 2px;
+    color: #D8000C;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 3px 12px;
+    text-shadow: none;
+    height: 30px;
+}
+#recaptcha_widget_div {
+	margin-left: 140px;
+}
+.auiu-post-form p.description  {
+	margin: 0;
+	padding: 3px 0 3px 23%;
+	font-size: 12px;
+}
+.auiu-post-form span.description {
+	margin: 0;
+	padding: 5px 10px 0px 10px;
+	font-size: 12px;
+	float: left;
+}
+.auiu-post-form #wp-new-post-desc-wrap tr td {
+	padding: 0;
+}
+.clear {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.success {
+	clear: both;
+	background-color: #DFF2BF;
+	border: 1px solid #BCDF7D;
+	color: #4F8A10;
+	padding: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-shadow: 0 1px 0 #FFFFFF;
+	font-size: 13px;
+}
+.info { 
+	background-color: #fef5be;
+	border: 2px solid #fdd425;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 5px 10px;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+}
+.invalid {
+    border: 1px solid #FF7272 !important;
+}
+input[type='checkbox'] #auiu-checkbox.requiredField.invalid {
+	background-color: #FF7272 !important;
+	color: #FF7272 !important;
+}
+.auiu-check-container span.invalid {
+	border: none !important;
+	color: #FF7272;	
+	font-weight: bold;
+}
+#auiu-post-area li {
+	list-style: none;
+}
+span.required {
+	color: red;
+}
+
+.required {
+	margin-top: -7px;
+}
+.auiu-loading {
+	height: 16px;
+	width: 16px;
+	background: url('../images/wpspin_light.gif') no-repeat;
+	padding: 0;
+	margin: 5px 10px;
+	right: -40px;
+	top: 0;
+	float: left;
+}
+.auiu-post-form .cptch_wrap {
+    display: block !important;
+}
+.g-recaptcha {
+	width: 74%;
+	float: left;
+}
